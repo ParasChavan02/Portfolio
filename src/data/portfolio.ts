@@ -1,6 +1,6 @@
 export const portfolio = {
   name: "Paras Chavan", role: "Software Engineer", email: "chavanparas0201@gmail.com", location: "Pune, Maharashtra",
-  github: "https://github.com/ParasChavan02", linkedin: "https://www.linkedin.com/in/paras-chavan-563aa728b/", mergePilot: "https://github.com/ParasChavan02/MergePilot-AI", urbanCoolPaper: "https://ieeexplore.ieee.org/document/11507747",
+  github: "https://github.com/ParasChavan02", linkedin: "https://www.linkedin.com/in/paras-chavan-563aa728b/", mergePilot: "https://github.com/ParasChavan02/MergePilot-AI", mergePilotLive: "https://mergepilot-ai.onrender.com", urbanCoolPaper: "https://ieeexplore.ieee.org/document/11507747",
   focus: [
     ["01", "Backend Engineering", "Designing reliable REST APIs, authentication systems, asynchronous workflows, and backend architectures."],
     ["02", "Full-Stack Development", "Building responsive applications using React, Next.js, TypeScript, and modern frontend architecture."],

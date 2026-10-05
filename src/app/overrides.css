@@ -1,0 +1,38 @@
+/* Tighten the rhythm between adjacent portfolio sections. */
+.section {
+  padding-block: 96px;
+}
+
+.project-section {
+  padding-top: 112px;
+}
+
+.education {
+  padding-top: 48px;
+  padding-bottom: 96px;
+}
+
+/* Keep the opening content visible sooner, without changing the hero's overall layout. */
+.hero.section {
+  align-items: flex-start;
+  padding-top: clamp(68px, 8vh, 112px);
+}
+
+@media (max-width: 640px) {
+  .hero.section {
+    padding-top: 72px;
+  }
+
+  .section {
+    padding-block: 72px;
+  }
+
+  .project-section {
+    padding-top: 80px;
+  }
+
+  .education {
+    padding-top: 44px;
+    padding-bottom: 72px;
+  }
+}
