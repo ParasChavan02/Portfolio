@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import "./globals.css";
 import "./links.css";
+import "./overrides.css";
 
 export const metadata: Metadata = {
   title: "Paras Chavan | Software Engineer",
