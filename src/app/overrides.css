@@ -12,6 +12,42 @@
   padding-bottom: 96px;
 }
 
+/* Featured panels follow the active page theme instead of remaining inverted. */
+.project-card,
+.contact {
+  background: var(--bg);
+  color: var(--fg);
+}
+
+.project-card .eyebrow,
+.contact .eyebrow {
+  color: color-mix(in srgb, var(--fg) 55%, transparent);
+}
+
+.project-copy > p:not(.eyebrow),
+.contact-inner > p:not(.eyebrow) {
+  color: color-mix(in srgb, var(--fg) 66%, transparent);
+}
+
+.checks li::before {
+  color: color-mix(in srgb, var(--fg) 55%, transparent);
+}
+
+.project-card .tag,
+.project-card .button,
+.contact .button {
+  border-color: color-mix(in srgb, var(--fg) 30%, transparent);
+}
+
+.project-card .tag {
+  color: color-mix(in srgb, var(--fg) 65%, transparent);
+}
+
+.contact .solid {
+  background: var(--invert);
+  color: var(--invfg);
+}
+
 /* Keep the opening content visible sooner, without changing the hero's overall layout. */
 .hero.section {
   align-items: flex-start;
