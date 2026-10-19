@@ -1,0 +1,11 @@
+/* Keep the project preview aligned with the active portfolio theme. */
+.project-card .preview{background:var(--bg);border-color:var(--line);color:var(--fg);box-shadow:16px 16px 0 color-mix(in srgb,var(--invfg) 14%,transparent)}
+.project-card .preview-top,.project-card .preview aside{border-color:var(--line);color:var(--muted)}
+.project-card .preview aside .active{border-color:var(--fg)}
+.project-card .preview .signal i{border-color:var(--muted)}
+.project-card .preview .code{background:var(--card);border-color:var(--line);color:var(--muted)}
+.project-card .preview .code b,.project-card .preview .code .marked{color:var(--fg)}
+.project-card .preview .code .marked{background:color-mix(in srgb,var(--fg) 8%,transparent)}
+.project-card .preview .review{border-color:var(--line)}
+.project-card .preview .review span{color:var(--muted)}
+.project-card .preview .review button{color:var(--fg)}

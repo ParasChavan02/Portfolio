@@ -43,9 +43,19 @@
   color: color-mix(in srgb, var(--fg) 65%, transparent);
 }
 
-.contact .solid {
-  background: var(--invert);
-  color: var(--invfg);
+/* The live-project CTA follows the page theme instead of staying inverted. */
+.project-card .button.solid {
+  background: var(--bg);
+  color: var(--fg);
+  border-color: var(--fg);
+}
+
+/* Primary actions stay light in light mode and dark in dark mode. */
+.hero .button.solid,
+.contact .button.solid {
+  background: var(--bg);
+  color: var(--fg);
+  border-color: var(--fg);
 }
 
 /* Keep the opening content visible sooner, without changing the hero's overall layout. */
